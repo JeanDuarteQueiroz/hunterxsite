@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body{
     margin: 0;
@@ -116,14 +121,12 @@ footer{
 
 .social-icons{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-content: space-around;
+    width: 50%;
 }
 
 .icon{
-    max-width: 30px;
-    max-height: 30px;
+    width: 30px;
+    height: 30px;
 }
 
 a{
@@ -131,6 +134,5 @@ a{
     align-items: center;
     border: none;
     outline: none;
-    margin: 5px;
 }
 
